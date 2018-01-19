@@ -1,0 +1,23 @@
+{
+  "name": "basichtml",
+  "version": "1.0.0",
+  "description": "testing html packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "run tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "flimFlim@github.com"
+  },
+  "keywords": [
+    "test",
+    "html",
+    "practice"
+  ],
+  "author": "andrew balogh",
+  "license": "MIT",
+  "devDependencies": {
+    "modernizr": "^3.5.0"
+  }
+}
