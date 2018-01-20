@@ -6,6 +6,13 @@
  * Time: 11:37 AM
  */
 
+    # We can define constants like so
+    define('Greeting', 'Buenos Dias');
+    define('DevilNum', 666);
+    echo Greeting . ' ' . DevilNum;
+
+
+
     # Functions - Block of code that can be repeatedly called
 
     function simpleFunction(){
@@ -14,18 +21,27 @@
     simpleFunction();
 
 
+    /**
+     * A Function to say hello!
+     * @param string $name
+     */
     function sayHello($name = 'Donald Trump'){
         echo "Hello $name<br>";
     }
     sayHello('Joe');
     sayHello();
 
-
+    /**
+     * Return the sum of two numbers
+     * @param $num1
+     * @param $num2
+     * @return mixed
+     */
     function addNumbers($num1, $num2){
         return $num1 + $num2;
     }
 
-//    echo 'numbers ' . addNumbers(2,3);
+    echo 'numbers ' . addNumbers(2,3) . '<br>';
 
 
     # Passing values by reference

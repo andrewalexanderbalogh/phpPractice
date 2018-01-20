@@ -11,6 +11,7 @@
          * @access public
          * @function headerFunc
          * @param header
+         * @return
          */
         const headerFunc = function(header){
 

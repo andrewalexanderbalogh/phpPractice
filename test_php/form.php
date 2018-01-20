@@ -32,7 +32,12 @@
         <script type="text/javascript">
             let alertClick = () => alert('You\'ve got mail');
 
-
+            /**
+             * Used to initiate a Post XMLHttpRequest with default form data,
+             * then replace the current page contents with the response
+             * @function postDefaults
+             *
+             */
             let postDefaults = () => {
                 let formData = new FormData();
                 formData.append('name', 'Brian');
@@ -53,7 +58,11 @@
                 makeRequest.send(formData);
             };
 
-
+            /**
+             * Used to initiate a Get XMLHttpRequest with url-query-data,
+             * then replace the current page contents with the response
+             * @function getDefaults
+             */
             let getDefaults = () => {
                 let formData = '?name=Brian&email=villain%40bon.com';
 
