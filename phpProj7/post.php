@@ -40,7 +40,7 @@
         <main>
             <article>
                 <div class="container">
-                    <a href="index.php" class="btn btn-default"></a>
+                    <a href="index.php" class="btn btn-default">Back</a>
                     <h2><?php echo $post['title']; ?></h2>
                     <small>Created on
                         <?php echo $post['created_at']; ?> by

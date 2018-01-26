@@ -53,6 +53,10 @@
     # Foreach Loop - For arrays
     $people = array('Brad', 'Jose', 'William');
 
+    $compactPeople = compact('people');
+    print_r($compactPeople);
+    echo '<br>';
+
     foreach($people as $person){
         echo $person . '<br>';
     }

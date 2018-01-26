@@ -4,6 +4,8 @@
      * Not sure why no complaints about DB_HOST, DB_USER, etc.. from config.php
      * as the file does not seem to need being included..
      * require('config.php');
+     * Jan 23/18: Dont need the require, since config.php along with this file are
+     *  require/included with index.php
      * */
     require('config.php');
 
